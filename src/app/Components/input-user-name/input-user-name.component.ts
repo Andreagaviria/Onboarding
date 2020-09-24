@@ -20,7 +20,7 @@ export class InputUserNameComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  enviar(name:string) {
+  sendUserName(name:string) {
     console.log(name);
   }
 }
