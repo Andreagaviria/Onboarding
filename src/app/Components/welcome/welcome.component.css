@@ -9,5 +9,9 @@ h1.welcome-title  {
   img.image-welcome {
     display: flex;
     margin: auto;
+    width: 40%;
   }
   
+  .letsim {
+    display: none;
+  }

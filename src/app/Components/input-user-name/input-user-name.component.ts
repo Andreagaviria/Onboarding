@@ -1,4 +1,4 @@
-import { Component, OnInit, SimpleChanges, Input } from '@angular/core';
+import { Component, OnInit, SimpleChanges, Input, Output, EventEmitter } from '@angular/core';
 import { Router } from '@angular/router'
 
 
@@ -8,7 +8,7 @@ import { Router } from '@angular/router'
   styleUrls: ['./input-user-name.component.css']
 })
 export class InputUserNameComponent implements OnInit {
-  name : string = '';
+   name:string;
   @Input() pathUrl:string;
 
   constructor(private router:Router) {

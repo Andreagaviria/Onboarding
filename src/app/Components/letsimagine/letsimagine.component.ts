@@ -6,12 +6,12 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./letsimagine.component.css']
 })
 export class LetsimagineComponent implements OnInit {
- nameUser:string="ana";
+ @Input() nameUser:string;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-
+ 
 }
