@@ -1,4 +1,5 @@
-import { Component, OnInit, SimpleChanges } from '@angular/core';
+import { Component, OnInit, SimpleChanges, Input } from '@angular/core';
+import { Router } from '@angular/router'
 
 
 @Component({
@@ -8,8 +9,11 @@ import { Component, OnInit, SimpleChanges } from '@angular/core';
 })
 export class InputUserNameComponent implements OnInit {
   name : string = '';
+  @Input() pathUrl:string;
 
-  constructor() { }
+  constructor(private router:Router) {
+ 
+   }
 
 
   ngOnChanges (changes: SimpleChanges) {
@@ -22,5 +26,9 @@ export class InputUserNameComponent implements OnInit {
 
   sendUserName(name:string) {
     console.log(name);
+  }
+
+  nextPage() {
+    this.router.navigate([this.pathUrl])
   }
 }

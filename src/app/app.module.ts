@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { InputUserNameComponent } from './Components/input-user-name/input-user-name.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LetsimagineComponent } from './components/letsimagine/letsimagine.component';
+import { WelcomeComponent } from './components/welcome/welcome.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InputUserNameComponent,
-    LetsimagineComponent
+    LetsimagineComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule, AppRoutingModule
