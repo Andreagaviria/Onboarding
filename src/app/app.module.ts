@@ -12,7 +12,7 @@ import { WelcomeComponent } from './Components/welcome/welcome.component';
   declarations: [
     AppComponent,
     InputUserNameComponent,
-    LetsimagineComponent,
+    // LetsimagineComponent,
     WelcomeComponent
   ],
   imports: [

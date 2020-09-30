@@ -1,3 +1,4 @@
+
 import { Component, OnInit, SimpleChanges, Input, Output, EventEmitter } from '@angular/core';
 import { Router } from '@angular/router'
 
@@ -8,7 +9,11 @@ import { Router } from '@angular/router'
   styleUrls: ['./input-user-name.component.css']
 })
 export class InputUserNameComponent implements OnInit {
+
    name:string;
+ 
+  
+  
   @Input() pathUrl:string;
 
   constructor(private router:Router) {
@@ -24,11 +29,10 @@ export class InputUserNameComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  sendUserName(name:string) {
-    console.log(name);
-  }
 
   nextPage() {
-    this.router.navigate([this.pathUrl])
+
+    this.router.navigate([this.pathUrl],
+     {state :{incomingName:this.name}})
   }
 }

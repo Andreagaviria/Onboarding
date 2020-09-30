@@ -1,3 +1,4 @@
+
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
@@ -6,11 +7,15 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./letsimagine.component.css']
 })
 export class LetsimagineComponent implements OnInit {
- @Input() nameUser:string;
+ nameUser:string;
+
 
   constructor() { }
 
+ 
   ngOnInit(): void {
+   
+    this.nameUser=history.state.incomingName;
   }
 
  
