@@ -3,11 +3,14 @@
 
 .containerCollapsible {
    width: 100%;
-   padding: 8% 8% 8% 4%;
+   padding: 3% 0%;
    display: flex;
    align-items: center;
    background: black;
    height: 100vh;
+   align-items: flex-start;
+   margin-bottom: 5%;
+
 }
 
 
@@ -16,9 +19,14 @@
     font-size: 60px;
     font-family: 'Roboto Condensed', sans-serif;
     top: -100px;
+    margin-bottom: 15%;
+    text-align: left;
+
 }
 
-
+mat-accordion.mat-accordion.collapsible {
+    width: 75%;
+}
 
 .imageCollapsible, .careersCollapsible {
    width: 50%;
@@ -28,7 +36,7 @@
 }
 
 .imageCollapsible img {
-   width:80%;
+   width:60%;
 }
 
 .careersCollapsible {
@@ -39,7 +47,7 @@
 
 ul {
     margin-top: 4%;
- 
+
  }
  
  ul li {
@@ -50,3 +58,64 @@ ul {
     font-weight: 200;
  }
  
+ .expertlist {
+    display: flex;
+}
+
+ul.exp {
+    width: 50%;
+}
+
+ /*Estilos de Collapsible*/
+ mat-panel-title.mat-expansion-panel-header-title {
+    display: block;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+mat-expansion-panel-header.initial {
+    background-color: #09A387;
+}
+
+mat-expansion-panel-header.initial.mat-expanded {
+    background:#09A387;
+}
+
+mat-expansion-panel-header.senior {
+    background-color: #6C93E1;
+}
+
+mat-expansion-panel-header.senior.mat-expanded {
+    background:#6C93E1;
+}
+
+mat-expansion-panel-header.expert {
+    background-color: #941342;
+}
+
+mat-expansion-panel-header.expert.mat-expanded {
+    background:#941342;
+}
+
+mat-expansion-panel-header.seniormgmt {
+    background-color: #ED873B;
+}
+
+mat-expansion-panel-header.seniormgmt.mat-expanded {
+    background:#ED873B;
+}
+
+.mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-header:hover:not([aria-disabled=true]){
+    background-color: #f4f4f4;
+}
+
+
+mat-expansion-panel-header:hover mat-panel-title.mat-expansion-panel-header-title {
+    color: black;
+}
+
+.mat-expansion-panel-header:not([aria-disabled=true]) {
+    cursor: pointer;
+    color: black;
+}
+

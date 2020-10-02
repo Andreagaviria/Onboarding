@@ -7,14 +7,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    padding-top: 10%;
+    padding: 4% 0 0 0;
    
 }
 
 .quoteLetsImagine p {
     text-align: center;
     color:white;
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 

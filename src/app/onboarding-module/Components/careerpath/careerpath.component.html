@@ -1,20 +1,23 @@
-
 <div class="containerCollapsible">
-    <div class="titleContainer">
-        <h2 class="titleCareerPath">Career <br> Path</h2>
-    </div>
-    
+   
 <div class="imageCollapsible">
 <img src="../../../../assets/careerpath-character.png" alt="Character image">
 </div>
 <div class="careersCollapsible">
- <mat-accordion>
+ 
 
 <!-------------------------->
 
+<div class="titleContainer">
+    <h2 class="titleCareerPath">Career Path</h2>
+</div>
+
+<mat-accordion class="collapsible">
+
+
     <mat-expansion-panel (opened)="panelOpenState = true"
                          (closed)="panelOpenState = false">
-      <mat-expansion-panel-header>
+      <mat-expansion-panel-header class="initial">
         <mat-panel-title>
           INITIAL AND MID LEVEL
         </mat-panel-title>
@@ -31,7 +34,7 @@
 
     <mat-expansion-panel (opened)="panelOpenState = true"
                          (closed)="panelOpenState = false">
-      <mat-expansion-panel-header>
+      <mat-expansion-panel-header class="senior">
         <mat-panel-title>
           SENIOR
         </mat-panel-title>
@@ -47,26 +50,30 @@
 
 <mat-expansion-panel (opened)="panelOpenState = true"
                          (closed)="panelOpenState = false">
-      <mat-expansion-panel-header>
+      <mat-expansion-panel-header class="expert">
         <mat-panel-title>
           EXPERT & MGM
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <ul>
+      <div class="expertlist">
+      <ul class="exp">
         <li>Subject Matter Expert</li>
         <li>Subject Matter Expert</li>
         <li>Subject Matter Expert</li>
+    </ul>
+    <ul class="exp">
         <li>Technical Director</li>
         <li>Technical Director</li>
         <li>Technical Manager</li>
     </ul>
+</div>
     </mat-expansion-panel>
 
 <!-------------------------->
 
 <mat-expansion-panel (opened)="panelOpenState = true"
                          (closed)="panelOpenState = false">
-      <mat-expansion-panel-header>
+      <mat-expansion-panel-header class="seniormgmt">
         <mat-panel-title>
           SENIOR MGMT
         </mat-panel-title>
@@ -80,4 +87,9 @@
 
   </mat-accordion>
 </div>
+
 </div>
+<div class="buttons">
+    <button (click)="goBack()">Previous</button>
+    <button (click)="goNext()">Next</button> 
+ </div>
