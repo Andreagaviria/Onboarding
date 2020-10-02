@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/*Botones Previous y Next*/
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5% 5%;
+}
+
+.buttons button {
+    font-size: 'Roboto condensed' sans serif;
+    background-color: #d8a91c;
+    color: white;
+    padding: 1% 2%;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.buttons button:hover {
+background-color: #ffd350;
+}
