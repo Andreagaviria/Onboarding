@@ -4,6 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { OnboardingModuleModule } from './onboarding-module/onboarding-module.module'
 import { AppComponent } from './app.component';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 
 
@@ -14,7 +15,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule, 
-    AppRoutingModule, OnboardingModuleModule
+    AppRoutingModule, OnboardingModuleModule, MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

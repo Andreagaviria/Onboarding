@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./careerpath.component.css']
 })
 export class CareerpathComponent implements OnInit {
+  panelOpenState = false;
 
   constructor() { }
 
