@@ -31,7 +31,6 @@ export class InputUserNameComponent implements OnInit {
 
 
   nextPage() {
-
     this.router.navigate([this.pathUrl],
      {state :{incomingName:this.name}})
   }
