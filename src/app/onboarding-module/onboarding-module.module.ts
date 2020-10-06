@@ -13,6 +13,7 @@ import { LetsimagineComponent } from './Components/letsimagine/letsimagine.compo
 import { WelcomeComponent } from './Components/welcome/welcome.component';
 import { CareerpathComponent } from './Components/careerpath/careerpath.component';
 import { TriforceComponent } from './Components/triforce/triforce.component';
+import { FciComponent } from './Components/fci/fci.component';
 
 
 
@@ -22,7 +23,8 @@ import { TriforceComponent } from './Components/triforce/triforce.component';
     LetsimagineComponent,
     WelcomeComponent,
     CareerpathComponent,
-    TriforceComponent],
+    TriforceComponent,
+    FciComponent],
   imports: [
     CommonModule, BrowserModule, 
     FormsModule, ReactiveFormsModule, 

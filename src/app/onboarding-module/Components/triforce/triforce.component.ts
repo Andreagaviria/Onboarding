@@ -18,7 +18,7 @@ nameUser:string;
 
 
   goNext(){
-    this.router.navigate(['#'])
+    this.router.navigate(['fci'])
   }
 
   goBack(){
