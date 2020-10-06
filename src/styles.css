@@ -8,9 +8,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 /*Botones Previous y Next*/
 .buttons {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 5% 5%;
+    /* display: flex; 
+    justify-content: space-between; */
+    padding: 0 5% 10%;
+}
+
+button.buttonNext {
+    float: right;
+}
+
+button.buttonPrevious{
+    float: left;
 }
 
 .buttons button {
