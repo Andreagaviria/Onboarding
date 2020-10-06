@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+
+div.main-content {
+    background-color: black;
+}
+
+.containerCollapsibleFci {
+   width: 100%;
+   padding: 3% 0%;
+   display: flex;
+   align-items: center;
+
+}
+
+.titleFci {
+    color:white;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    top: -100px;
+    margin-bottom: 15%;
+    text-align: left;
+
+}
+
+.fciCollapsible mat-accordion.mat-accordion.collapsible {
+    width: 60%;
+    padding-left: 8%;
+}
+
+.imageCollapsibleFci, .fciCollapsible {
+   width: 50%;
+   display: flex;
+   justify-content: center;
+}
+
+.imageCollapsibleFci img {
+   width:100%;
+}
+
+.fciCollapsible {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.mat-expansion-panel-body {
+    padding: 0 24px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.fciCollapsible ul {
+    margin-top: 4%;
+    list-style: none;
+    padding: 0;
+
+ }
+ 
+ .fciCollapsible ul li {
+    text-align: left;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+ }
+
+ div.justCenter {
+    justify-content: center;
+    display: flex;
+}
+ 
+
+ /*Estilos de Collapsible*/
+ .fciCollapsible mat-panel-title.mat-expansion-panel-header-title {
+    display: block;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+mat-expansion-panel-header.exc {
+    background-color: #ed46a5;
+}
+
+mat-expansion-panel-header.exc.mat-expanded {
+    background:#ed46a5;
+}
+
+.fciCollapsible ul.excAct li span {
+    color:#ed46a5;
+}
+
+mat-expansion-panel-header.const {
+    background-color: #A42AFB;
+}
+
+mat-expansion-panel-header.const.mat-expanded {
+    background:#A42AFB;
+}
+
+.fciCollapsible ul.constInn li span {
+    color:#A42AFB;
+}
+
+mat-expansion-panel-header.team {
+    background-color: #0097A7;
+}
+
+mat-expansion-panel-header.team.mat-expanded {
+    background:#0097A7;
+}
+
+.fciCollapsible ul.teamPlayer li span {
+    color:#0097A7;
+}
+
+.fciCollapsible .mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-header:hover:not([aria-disabled=true]){
+    background-color: #f4f4f4;
+}
+
+
+.fciCollapsible mat-expansion-panel-header:hover mat-panel-title.mat-expansion-panel-header-title {
+    color: black;
+}
+
+.fciCollapsible .mat-expansion-panel-header:not([aria-disabled=true]) {
+    cursor: pointer;
+    color: black;
+}
+
+.fciCollapsible .mat-expansion-panel-spacing {
+    margin:0;
+}

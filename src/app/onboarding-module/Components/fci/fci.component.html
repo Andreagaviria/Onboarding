@@ -1,0 +1,74 @@
+<div class="main-content">
+
+    <div class="containerCollapsibleFci">
+
+        <div class="imageCollapsibleFci">
+            <img src="../../../../assets/fciImage.png" alt="Character image">
+        </div>
+        <div class="fciCollapsible">
+            <!-------------------------->
+
+            <div class="titleContainerFci">
+                <h3 class="titleFci">Globant Values & FCI3</h3>
+            </div>
+
+            <mat-accordion class="collapsible">
+
+                <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                    <mat-expansion-panel-header class="exc">
+                        <mat-panel-title>
+                            Excellence in your work & Act Ethically
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                   <div class="justCenter">
+                    <ul class="excAct">
+                        <li><span>F</span>ocused</li>
+                        <li><span>C</span>ommited</li>
+                        <li><span>I</span>ntegrity</li>
+                    </ul>
+                </div>
+                </mat-expansion-panel>
+
+                <!-------------------------->
+
+                <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                    <mat-expansion-panel-header class="const">
+                        <mat-panel-title>
+                            Constantly Innovate & Think Big
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <div class="justCenter">
+                    <ul class="constInn">
+                        <li><span>F</span>ast learner</li>
+                        <li><span>C</span>lear thinker</li>
+                        <li><span>I</span>nnovative</li>
+                    </ul>
+                </div>
+                </mat-expansion-panel>
+
+                <!-------------------------->
+
+                <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                    <mat-expansion-panel-header class="team">
+                        <mat-panel-title>
+                            Team Player & Have Fun
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <div class="justCenter">
+                        <ul class="teamPlayer">
+                            <li><span>F</span>lexible</li>
+                            <li><span>C</span>olaborative</li>
+                            <li><span>I</span>nclusive</li>
+                        </ul>
+                    </div>
+                </mat-expansion-panel>
+
+            </mat-accordion>
+        </div>
+
+    </div>
+    <div class="buttons">
+        <button (click)="goBack()" class="buttonPrevious">Previous</button>
+        <button (click)="goNext()" class="buttonNext">Next</button>
+    </div>
+</div>
