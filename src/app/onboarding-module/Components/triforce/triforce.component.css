@@ -1,0 +1,81 @@
+
+
+.triforcePage {
+    padding: 4%;
+  font-family: 'Roboto Condensed', sans-serif;
+ }
+ 
+ .triforcePage h1 {
+    color: #33353a;
+ }
+ 
+ .triforcePage h3 {
+    text-align: center;
+    color: gray;
+ }
+ 
+ .triforceTabs mat-tab-group.tabsModule {
+     border: 1px solid #cacaca;
+     padding: 0;
+     border-radius: 20px;
+     width: 60%;
+     margin: 5% auto;
+     box-shadow: 0px 0px 12px 0px rgba(179,179,179,1);
+ }
+ 
+ /* .mat-tab-label {
+     display: flex;
+     list-style: none;
+     cursor: pointer;
+     justify-content: space-around;
+     margin: 0;
+     padding: 0;
+     font-size: 1.3em;
+
+ }  */
+
+ .tabsModule div#mat-tab-label-0-0, div#mat-tab-label-0-1, div#mat-tab-label-0-2 {
+     width: 100%;
+     color: white;
+ }
+ 
+ div#mat-tab-label-0-0 {
+     background:#5C96BE;
+     border-top-left-radius: 20px;
+ }
+ 
+ .triforceTabs div#mat-tab-label-0-0:hover {
+    background-color:#45779a;
+ }
+ 
+ .triforceTabs div#mat-tab-label-0-1 {
+     background: #13A89E;
+ }
+ 
+ .triforceTabs div#mat-tab-label-0-1:hover {
+    background-color:#138880;
+ }
+ 
+ .triforceTabs div#mat-tab-label-0-2 {
+     background: #a084d2;
+     border-top-right-radius: 20px;
+ }
+ 
+ .triforceTabs div#mat-tab-label-0-2:hover {
+    background-color:#7d66a7;
+ }
+ 
+ .triforceTabs mat-tab-body {
+     display: flex;
+     list-style: none;
+     cursor: pointer;
+     justify-content: space-around;
+     margin: 0;
+     padding:35px;
+ }
+ .tabsModule img {
+     width: 25%;
+     margin: 4% auto;
+     display: flex;
+ }
+

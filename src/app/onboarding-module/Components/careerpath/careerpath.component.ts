@@ -8,14 +8,17 @@ import { Router } from '@angular/router'
 })
 export class CareerpathComponent implements OnInit {
   panelOpenState = false;
+  nameUser:string;
 
   constructor(private router: Router) { }
 
   ngOnInit(): void {
+    this.nameUser=history.state.incomingName;
   }
 
   goNext(){
-    this.router.navigate(['#'])
+    this.router.navigate(['triforce'],
+    {state :{incomingName:this.nameUser}})
   }
 
   goBack(){
