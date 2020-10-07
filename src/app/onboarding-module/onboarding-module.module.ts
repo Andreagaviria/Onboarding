@@ -15,6 +15,8 @@ import { WelcomeComponent } from './Components/welcome/welcome.component';
 import { CareerpathComponent } from './Components/careerpath/careerpath.component';
 import { TriforceComponent } from './Components/triforce/triforce.component';
 import { FciComponent } from './Components/fci/fci.component';
+import { KeypeopleComponent } from './Components/keypeople/keypeople.component';
+import { CardpeopleComponent } from './Components/cardpeople/cardpeople.component';
 
 
 
@@ -25,7 +27,9 @@ import { FciComponent } from './Components/fci/fci.component';
     WelcomeComponent,
     CareerpathComponent,
     TriforceComponent,
-    FciComponent],
+    FciComponent,
+    KeypeopleComponent,
+    CardpeopleComponent],
   imports: [
     CommonModule, BrowserModule, 
     FormsModule, ReactiveFormsModule, 

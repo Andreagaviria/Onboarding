@@ -1,0 +1,13 @@
+<app-cardpeople></app-cardpeople>
+
+
+<div class="cartas" *ngIf="peopleList.length">     
+    <div class="prueba" *ngFor="let person of peopleList">          
+        <app-cardpeople>
+        [image]="person.image"
+        [name]="person.name" 
+        [emai]="person.email" 
+        [studio]="person.studio" 
+    </app-cardpeople>     
+</div>  
+</div>
