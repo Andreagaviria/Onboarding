@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router'
 
 //Modelo
 import { IPeople } from '../../models/people'
@@ -12,7 +13,7 @@ import { IPeople } from '../../models/people'
 export class KeypeopleComponent implements OnInit {
 peopleList: Array<IPeople>;
 
-  constructor() { 
+  constructor(private router: Router) { 
     this.peopleList = [
       {
         "id": 1,
@@ -63,6 +64,14 @@ peopleList: Array<IPeople>;
   }
 
   ngOnInit(): void {
+  }
+
+  goNext(){
+    this.router.navigate(['#'])
+  }
+
+  goBack(){
+    this.router.navigate(['fci'])
   }
 
 }

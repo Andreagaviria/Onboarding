@@ -1,4 +1,4 @@
 <div class="form_user content">
   <input class="input_user" [(ngModel)]="name" type="text" placeholder="your name">
-  <button class="save_user_button" (click)="nextPage()" type="submit">Save</button>
+  <button class="save_user_button" (click)="nextPage()" [disabled]="!name"  type="submit">Save</button>
 </div>

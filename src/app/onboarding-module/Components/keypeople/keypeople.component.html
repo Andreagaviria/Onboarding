@@ -1,13 +1,21 @@
-<app-cardpeople></app-cardpeople>
-
-
-<div class="cartas" *ngIf="peopleList.length">     
-    <div class="prueba" *ngFor="let person of peopleList">          
-        <app-cardpeople>
-        [image]="person.image"
-        [name]="person.name" 
-        [emai]="person.email" 
-        [studio]="person.studio" 
-    </app-cardpeople>     
-</div>  
+<div class="main-content">
+    <h1>UI Studio COPE</h1>
+    <h3>Key People</h3>
+    <div class="cartas" *ngIf="peopleList.length">
+        <div *ngFor="let person of peopleList">
+            <app-cardpeople 
+            [image]="person.image" 
+            [name]="person.name" 
+            [email]="person.email"
+            [emailto]="person.emailto" 
+            [studio]="person.studio"
+            [clase]="person.clase"
+            >
+            </app-cardpeople>
+        </div>
+    </div>
+    <div class="buttons">
+        <button (click)="goBack()" class="buttonPrevious">Previous</button>
+        <button (click)="goNext()" class="buttonNext">Next</button>
+    </div>
 </div>
