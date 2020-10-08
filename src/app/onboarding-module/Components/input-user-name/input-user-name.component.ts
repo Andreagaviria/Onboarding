@@ -32,6 +32,6 @@ export class InputUserNameComponent implements OnInit {
 
   nextPage() {
     this.router.navigate([this.pathUrl],
-     {state :{incomingName:this.name}})
+     {state :{incomingName:this.name.charAt(0).toUpperCase()+this.name.slice(1)}})
   }
 }

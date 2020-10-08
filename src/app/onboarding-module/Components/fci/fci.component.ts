@@ -16,7 +16,7 @@ export class FciComponent implements OnInit {
   }
 
   goNext(){
-    this.router.navigate(['#'])
+    this.router.navigate(['keypeople'])
   }
 
   goBack(){

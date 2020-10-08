@@ -6,6 +6,7 @@ import { WelcomeComponent } from './onboarding-module/Components/welcome/welcome
 import { CareerpathComponent } from './onboarding-module/Components/careerpath/careerpath.component';
 import { TriforceComponent } from './onboarding-module/Components/triforce/triforce.component';
 import { FciComponent } from './onboarding-module/Components/fci/fci.component';
+import { KeypeopleComponent } from './onboarding-module/Components/keypeople/keypeople.component';
 
 
 const routes: Routes = [
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path:'letsimagine', component:LetsimagineComponent},
   {path:'careerpath', component:CareerpathComponent},
   {path:'triforce', component:TriforceComponent},
-  {path:'fci', component:FciComponent}
+  {path:'fci', component:FciComponent},
+  {path: 'keypeople', component:KeypeopleComponent}
 
 
 
