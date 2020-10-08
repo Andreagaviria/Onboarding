@@ -67,7 +67,7 @@ peopleList: Array<IPeople>;
   }
 
   goNext(){
-    this.router.navigate(['#'])
+    this.router.navigate(['ready'])
   }
 
   goBack(){

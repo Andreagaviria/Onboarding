@@ -17,6 +17,7 @@ import { TriforceComponent } from './Components/triforce/triforce.component';
 import { FciComponent } from './Components/fci/fci.component';
 import { KeypeopleComponent } from './Components/keypeople/keypeople.component';
 import { CardpeopleComponent } from './Components/cardpeople/cardpeople.component';
+import { ReadyComponent } from './Components/ready/ready.component';
 
 
 
@@ -29,7 +30,8 @@ import { CardpeopleComponent } from './Components/cardpeople/cardpeople.componen
     TriforceComponent,
     FciComponent,
     KeypeopleComponent,
-    CardpeopleComponent],
+    CardpeopleComponent,
+    ReadyComponent],
   imports: [
     CommonModule, BrowserModule, 
     FormsModule, ReactiveFormsModule, 
