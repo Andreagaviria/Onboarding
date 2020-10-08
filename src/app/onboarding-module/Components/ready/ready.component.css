@@ -4,4 +4,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.buttons--ready {
+    width: 100%;
 }
