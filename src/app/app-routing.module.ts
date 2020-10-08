@@ -7,6 +7,7 @@ import { CareerpathComponent } from './onboarding-module/Components/careerpath/c
 import { TriforceComponent } from './onboarding-module/Components/triforce/triforce.component';
 import { FciComponent } from './onboarding-module/Components/fci/fci.component';
 import { KeypeopleComponent } from './onboarding-module/Components/keypeople/keypeople.component';
+import { ReadyComponent } from './onboarding-module/Components/ready/ready.component';
 
 
 const routes: Routes = [
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path:'careerpath', component:CareerpathComponent},
   {path:'triforce', component:TriforceComponent},
   {path:'fci', component:FciComponent},
-  {path: 'keypeople', component:KeypeopleComponent}
+  {path: 'keypeople', component:KeypeopleComponent},
+  {path: 'ready', component:ReadyComponent}
 
 
 
