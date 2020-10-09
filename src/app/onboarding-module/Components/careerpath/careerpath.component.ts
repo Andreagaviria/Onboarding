@@ -22,6 +22,6 @@ export class CareerpathComponent implements OnInit {
   }
 
   goBack(){
-    this.router.navigate(['letsimagine'])
+    this.router.navigate(['studios'])
   }
 }

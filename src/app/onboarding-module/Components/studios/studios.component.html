@@ -1,0 +1,50 @@
+<div class="bg">
+    <h1>Classes - Studios</h1>
+    <div class="carousel-studios">
+        <mat-carousel
+        timings="250ms ease-in"
+        [autoplay]="false"
+        interval="5000"
+        color="primary"
+        maxWidth="100%"
+        proportion="40"
+        slides="3"
+        [loop]="true"
+        [hideArrows]="false"
+        [hideIndicators]="true"
+        [useKeyboard]="true"
+        [useMouseWheel]="false"
+        orientation="ltr"
+      >
+        <!-- <mat-carousel-slide
+          #matCarouselSlide
+          *ngFor="let slide of slides; let i = index"
+          [image]="slide.image"
+          overlayColor=""
+          [hideOverlay]="true"
+        ></mat-carousel-slide> -->
+
+        <mat-carousel-slide>
+            <h3>STRATEGIC</h3>
+            <img class="strategic-image" src="'../../../../../../assets/strategic.PNG" alt="Imagen de strategic">
+        </mat-carousel-slide>
+
+        <mat-carousel-slide>
+            <h3>SPECIALITY</h3>
+            <img class="speciality-image" src="'../../../../../../assets/speciality.PNG" alt="Imagen de speciality">
+        </mat-carousel-slide>
+
+        <mat-carousel-slide>
+            <h3>FOUNDATION</h3>
+            <img class="foundation-image" src="'../../../../../../assets/foundation.PNG" alt="Imagen de foundation">
+        </mat-carousel-slide>
+
+
+      </mat-carousel>
+    </div>
+
+    <div class="buttons">
+        <button (click)="goBack()" class="buttonPrevious">Previous</button>
+        <button (click)="goNext()" class="buttonNext">Next</button>
+    </div>
+</div>
