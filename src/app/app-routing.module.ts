@@ -8,6 +8,7 @@ import { TriforceComponent } from './onboarding-module/Components/triforce/trifo
 import { FciComponent } from './onboarding-module/Components/fci/fci.component';
 import { KeypeopleComponent } from './onboarding-module/Components/keypeople/keypeople.component';
 import { ReadyComponent } from './onboarding-module/Components/ready/ready.component';
+import { StudiosComponent } from './onboarding-module/Components/studios/studios.component';
 
 
 const routes: Routes = [
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path:'triforce', component:TriforceComponent},
   {path:'fci', component:FciComponent},
   {path: 'keypeople', component:KeypeopleComponent},
-  {path: 'ready', component:ReadyComponent}
+  {path: 'ready', component:ReadyComponent},
+  {path: 'studios', component:StudiosComponent}
 
 
 

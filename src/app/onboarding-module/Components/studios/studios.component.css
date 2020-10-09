@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+.bg {
+    background: black;
+    text-align: center;
+}
+
+.carousel-studios {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-slide-content {
+    background: black;
+}
+
+.bg h1 {
+    color: white;
+    margin: 0;
+    padding: 3%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 38px;
+}
+
+.carousel-studios h3 {
+    color: #c1d72f;
+    font-size: 26px;
+    margin: 0 0 7% 0;
+}
+
+img.strategic-image {
+    width: 35%;
+}
+
+
+img.speciality-image {
+    width: 32%;
+}
+
+img.foundation-image {
+    width: 30%;
+}
+
+
+.carousel-studios {
+    margin-bottom: 3%;
+}
+
+
+::ng-deep button.mat-focus-indicator.mat-icon-button.mat-button-base.mat-primary {
+    color: white;
+    background: #37dbb3;
+    margin: 0 6% 0% 0;
+}

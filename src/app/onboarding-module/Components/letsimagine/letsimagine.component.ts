@@ -23,7 +23,7 @@ export class LetsimagineComponent implements OnInit {
 
 
   goNext(){
-    this.router.navigate(['careerpath'],
+    this.router.navigate(['studios'],
     {state :{incomingName:this.nameUser}})
   }
   

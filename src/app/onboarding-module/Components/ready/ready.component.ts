@@ -17,8 +17,5 @@ export class ReadyComponent implements OnInit {
    this.router.navigate(['keypeople'])
   }
 
-  goNext() {
-   this.router.navigate(['#'])
-  }
 
 }
